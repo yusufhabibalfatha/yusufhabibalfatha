@@ -1,11 +1,11 @@
 <h1 align="center">Hi 👋, I'm Yusuf Habib Alfatha</h1>
-<h3 align="center">You can call me ucup. I love so much to Javascript and interest to be front-end developer.</h3>
+<h3 align="center">UI/UX and user satisfaction enthusiast</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=yusufhabibalfatha&label=Profile%20views&color=0e75b6&style=flat" alt="yusufhabibalfatha" /> </p>
 
-- 🌱 I’m currently learning **React js**
+- 🌱 I’m currently learning **React js**, **UI fundamental**, and **Deployment**
 
-- 👨‍💻 All of my projects are available at [yusufhabib.free.nf](yusufhabib.free.nf)
+- 👨‍💻 All of my projects are available at [yusufhabib.online](yusufhabib.online)
 
 - 📫 How to reach me **y.habib.alfatha@gmail.com**
 
