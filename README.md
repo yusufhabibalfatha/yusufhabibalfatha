@@ -1,13 +1,13 @@
 <h1 align="center">Hi 👋, I'm Yusuf Habib Alfatha</h1>
-<h3 align="center">UI/UX and user satisfaction enthusiast</h3>
+<h3 align="center">UI and motion enthusiast</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=yusufhabibalfatha&label=Profile%20views&color=0e75b6&style=flat" alt="yusufhabibalfatha" /> </p>
 
-- 🌱 I’m currently learning **React js**, **UI fundamental**, and **Deployment**
+-   🌱 I’m currently learning **React js**, **UI fundamental**, and **Deployment**
 
-- 👨‍💻 All of my projects are available at [yusufhabib.online](https://yusufhabib.online)
+-   👨‍💻 See my portfolio [https://yusufhabibalfatha.github.io/yusufhabibalfatha/](https://yusufhabib.online)
 
-- 📫 How to reach me **y.habib.alfatha@gmail.com**
+-   📫 How to reach me **y.habib.alfatha@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
