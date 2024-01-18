@@ -5,7 +5,7 @@
 
 -   🌱 I’m currently learning **React js**, **UI fundamental**, and **Deployment**
 
--   👨‍💻 See my portfolio [https://yusufhabibalfatha.github.io/yusufhabibalfatha/](https://yusufhabib.online)
+-   👨‍💻 See my [Portfolio](https://yusufhabibalfatha.github.io/yusufhabibalfatha/)
 
 -   📫 How to reach me **y.habib.alfatha@gmail.com**
 
