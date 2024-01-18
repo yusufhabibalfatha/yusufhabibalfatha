@@ -1,10 +1,25 @@
+import Header from './sections/Header'
+import Biodata from './sections/Biodata'
+import Doing from './sections/Doing'
+import Project from './sections/Project'
+import Mini_project from './sections/MiniProject'
+import Message from './sections/Message'
+import SocialMedia from './sections/SocialMedia'
+import Footer from './sections/Footer'
+
 const App = () => {
     return (
-        <div>
-            <h1 className="font-Poppins">Test poppins regular</h1>
-            <h1 className="font-Poppins text-6xl font-bold">
-                Test poppins bold
-            </h1>
+        <div className="text-one font-Poppins mx-auto text-2xl leading-loose md:w-1/2">
+            <Header />
+            <main>
+                <Biodata />
+                <Doing />
+                <Project />
+                <Mini_project />
+                <Message />
+                <SocialMedia />
+                <Footer />
+            </main>
         </div>
     )
 }

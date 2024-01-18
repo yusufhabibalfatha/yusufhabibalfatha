@@ -7,6 +7,11 @@ export default {
             fontFamily: {
                 Poppins: ['Poppins'],
             },
+            colors: {
+                one: '#1D1D1F',
+                two: '#727277',
+                three: '#D9D9D9',
+            },
         },
     },
     plugins: [],
