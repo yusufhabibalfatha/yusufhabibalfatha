@@ -1,5 +1,5 @@
-<h1 align="center">hello, my name Yusuf</h1>
-<h3 align="center">frontend dev with theme, ui and motion enthusiast</h3>
+<h1 align="center">skrt! my name is Yusuf</h1>
+<h3 align="center">frontend dev with theme, ui, motion enthusiast</h3>
 
 - 🔭 I’m currently working as [informatic teacher](https://almukminuntarakan.org/)
 
