@@ -12,8 +12,9 @@ export default function App() {
       <Testimonials />
 
       {/* sidebar */}
-      <aside className="p-6 text-justify bg-base-300">
-        <img className="mx-auto max-h-60 pb-6" src={photo} alt="photo-profile" />
+      <aside className="p-6 text-justify bg-base-100">
+      <h2 className="text-3xl">Overview</h2>
+        <img className="mx-auto max-h-60 p-6" src={photo} alt="photo-profile" />
         <p>I am a website developer. I have helped several people solve problems related to websites. Examples include homework, basic scripts, custom websites, and WordPress. <span className="font-bold">My job is to create websites quickly and affordably.</span></p>
         <p>I specialize in web development but enjoy branching out, sometimes taking courses in UI/UX and writing.</p>
       </aside>
