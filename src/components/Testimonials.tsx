@@ -6,7 +6,8 @@ import testi_3 from "./../assets/testi-3.png"
 
 const Testimonials = () => {
     return (
-        <div className="bg-neutral flex gap-x-2 justify-start items-center px-4 py-2 overflow-x-scroll max-h-40">
+        <div className="flex flex-wrap items-center justify-start w-full px-4 py-2 overflow-x-scroll gap-x-2 max-h-52">
+            <p className="w-full text-center">Testimonials</p>
             <img className="max-h-36" src={testi_1} alt="" />
             <img className="max-w-44 max-h-36" src={testi_2} alt="" />
             <img className="max-w-44 max-h-36" src={testi_2_2} alt="" />
