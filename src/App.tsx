@@ -11,7 +11,10 @@ import { RouterProvider } from 'react-router-dom'
 
 export const Root = () => {
     return (
+    <div className="flex flex-col sm:flex-wrap sm:flex-row bg-base-200">
+        <Navbar />
         <Outlet />
+    </div>
     )
 }
 export const MainRoot = () => {
@@ -25,15 +28,14 @@ export const MainRoot = () => {
 
 export const Home = () => {
     return (
-        <div className="flex flex-col sm:flex-wrap sm:flex-row bg-base-200">
-            <Navbar />
+        <>
             <Header />
             <p className="w-full p-4 mt-8 text-3xl text-center">Testimonials</p>
             <Testimonials />
             <Sidebar />
             <Outlet />
             <Footer />
-        </div>
+        </>
     );
 }
 
@@ -44,7 +46,7 @@ const routes = createBrowserRouter(
             <Route element={<Home />} >
                 <Route element={<MainRoot />}>
                     <Route path="/" element={<MainContent />}/>
-                    <Route path="other" element={<MainOther />}/>
+                    <Route path="project/:projectID" element={<MainOther />}/>
                 </Route>
             </Route>
             <Route path="about" element={<About />} />

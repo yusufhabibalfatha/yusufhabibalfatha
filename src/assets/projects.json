@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "title": "Completed building the boarding school organization website",
+        "client": "Almukminun Foundation Tarakan City",
+        "role": ["UX research", "UI design", "WordPress developer"],
+        "result": "The platform becomes a forum for registration, promotions and presentations"
+    },
+    {
+        "id": 2,
+        "title": "Complete random embedding of Instagram post to the website",
+        "client": "Personnel from Fiverr",
+        "role": ["Frontend Developer"],
+        "result": "A dynamic website displays random Instagram posts through embeds for further optimization"
+    },
+    {
+        "id": 3,
+        "title": "Finished college assignments on website building through coding",
+        "client": "Personnel from Fiverr",
+        "role": ["Frontend Developer"],
+        "result": "Completed a task involving creating a website using HTML, CSS, and JavaScript technology"
+    },
+    {
+        "id": 4,
+        "title": "Completed a custom website to display several books",
+        "client": "Personnel from Fiverr",
+        "role": ["Frontend Developer"],
+        "result": "Website that displays a collection of books like a bookshelf display"
+    },
+    {
+        "id": 5,
+        "title": "Implementing the figma design into a website",
+        "client": "Personnel from Freelancer",
+        "role": ["Frontend Developer"],
+        "result": "The website built using React JS is an information website about festival events"
+    }
+]
