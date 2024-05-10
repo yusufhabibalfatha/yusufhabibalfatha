@@ -1,7 +1,8 @@
 const MainContent = () => {
     return (
-        <main className="flex flex-col p-6 gap-y-4 sm:w-3.5 sm:flex-grow">
-            <h2 className="text-3xl text-center">Projects</h2>
+        <>
+        {/* <main className="flex flex-col p-6 gap-y-4 sm:w-3.5 sm:flex-grow"> */}
+            {/* <h2 className="text-3xl text-center">Projects</h2> */}
             {/* project 1 */}
             <div className="p-6 whitespace-pre-wrap bg-base-300 rounded-xl">
                 <h2 className="text-xl font-bold">Completed building the boarding school organization website</h2>
@@ -62,7 +63,8 @@ const MainContent = () => {
                     <p className="w-9/12">The website built using React JS is an information website about festival events</p>
                 </div>
             </div>
-        </main>
+        </>
+        // </main>
     );
 }
  
