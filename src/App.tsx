@@ -10,6 +10,7 @@ export default function App() {
     <div className="flex flex-col sm:flex-wrap sm:flex-row bg-base-200">
         <Navbar />
         <Header />
+        <p className="w-full p-4 mt-8 text-3xl text-center">Testimonials</p>
         <Testimonials />
         <Sidebar />
         <MainContent />

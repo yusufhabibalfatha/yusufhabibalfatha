@@ -1,4 +1,4 @@
-import Photo_profile from "../assets/photo-profile-small.jpeg"
+import Photo_profile from "../assets/photo-profile-hero.jpeg"
 
 const Header = () => {
     return (
