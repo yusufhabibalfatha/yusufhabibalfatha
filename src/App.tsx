@@ -6,7 +6,7 @@ import Sidebar from "./components/Sidebar"
 import Testimonials from "./components/Testimonials"
 import Header from "./components/Header"
 import About from "./components/About"
-import { createBrowserRouter, createRoutesFromElements, Outlet, Route } from "react-router-dom"
+import { createBrowserRouter, createRoutesFromElements, Outlet, Route, useLocation, NavLink } from "react-router-dom"
 import { RouterProvider } from 'react-router-dom'
 
 export const Root = () => {
@@ -18,9 +18,16 @@ export const Root = () => {
     )
 }
 export const MainRoot = () => {
+    const location = useLocation()
+    let a = location.pathname.includes('project')
     return (
     <main className="flex flex-col p-6 gap-y-4 sm:w-3.5 sm:flex-grow">
-        <h2 className="text-3xl text-center">Projects</h2>
+        <div className="relative flex items-center">
+            <NavLink to=".." className={`absolute ${a ? 'block' : 'hidden'}`}>Back</NavLink>
+            <h2 className="w-full text-3xl text-center">
+                Projects
+            </h2>
+        </div>
         <Outlet />
     </main>
     )
