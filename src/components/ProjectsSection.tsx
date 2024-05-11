@@ -1,19 +1,21 @@
-import { NavLink } from "react-router-dom";
+import { NavLink, useOutletContext } from "react-router-dom";
 import { m } from "framer-motion";
 import projects from "../assets/projects.json";
 import { IoChevronForward } from "react-icons/io5";
 
 const ProjectsSection = () => {
+  const axisTitleProject = useOutletContext<HTMLDivElement>();
+
   const scrollToTopProjects = () => {
-    const projectsSection = document.getElementById("projectsSection");
-    projectsSection?.scrollIntoView();
+    axisTitleProject.scrollIntoView();
   };
   return (
     <m.div
       className="flex flex-col gap-3"
       initial={{ opacity: 0, x: -100 }}
       animate={{ opacity: 1, x: 0 }}
-      exit={{ opacity: 0, x: -100 }}
+      exit={{ opacity: 0, x: 100 }}
+      transition={{ duration: 0.3 }}
     >
       {projects.map((project) => (
         <div

@@ -1,17 +1,18 @@
 import { useLocation, NavLink, Outlet } from "react-router-dom";
 import { IoChevronBackSharp } from "react-icons/io5";
 import { LazyMotion, domAnimation, m } from "framer-motion";
+import { useRef, MutableRefObject } from "react";
 
 const ProjectsRoot = () => {
   const location = useLocation();
   const isPathHasProject = location.pathname.includes("project");
 
+  const axisTitleProject: MutableRefObject<HTMLDivElement | null> =
+    useRef(null);
+
   return (
     <LazyMotion features={domAnimation}>
-      <main
-        id="projectsSection"
-        className="flex flex-col p-6 gap-y-4 sm:w-3.5 sm:flex-grow min-h-screen scroll-mt-12"
-      >
+      <main className="flex flex-col p-6 gap-y-4 sm:w-3.5 sm:flex-grow min-h-screen">
         <div className="relative flex items-center">
           <NavLink
             to=".."
@@ -29,10 +30,15 @@ const ProjectsRoot = () => {
               Back
             </m.button>
           </NavLink>
-          <h2 className="w-full text-3xl text-center">Projects</h2>
+          <h2
+            className="w-full text-3xl text-center scroll-mt-20"
+            ref={axisTitleProject}
+          >
+            Projects
+          </h2>
         </div>
 
-        <Outlet />
+        <Outlet context={axisTitleProject.current} />
       </main>
     </LazyMotion>
   );
