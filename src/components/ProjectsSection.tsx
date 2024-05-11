@@ -1,7 +1,7 @@
-import { NavLink } from "react-router-dom";
-import projects from "./../assets/projects.json"
+// import { NavLink } from "react-router-dom";
+import projects from "../assets/projects.json"
 
-const MainContent = () => {
+const ProjectsSection = () => {
     return (
         <>
             {projects.map(project => (
@@ -22,4 +22,4 @@ const MainContent = () => {
     );
 }
  
-export default MainContent;
+export default ProjectsSection;

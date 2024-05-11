@@ -1,10 +1,8 @@
 import { useParams } from "react-router-dom";
-import projects from "./../assets/projects.json"
+import projects from "../assets/projects.json"
 
-const MainContent = () => {
+const ProjectSection = () => {
     const { projectID } = useParams<Record<string, string | undefined>>()
-    // const { projectID } = useParams<{projectID?: string}>();
-
     const theProject = projects.filter(project => project.id.toString() === projectID)[0]
 
     return (
@@ -16,4 +14,4 @@ const MainContent = () => {
     );
 }
  
-export default MainContent;
+export default ProjectSection;
