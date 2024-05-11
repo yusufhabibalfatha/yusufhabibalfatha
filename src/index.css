@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-.tab{
-    margin-right: 20px;
-}
+@layer components {
+    .img-testimonial {
+      @apply w-5/6 rounded-md md:w-4/6 lg:w-2/6;
+    }
+  }

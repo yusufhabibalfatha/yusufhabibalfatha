@@ -15,7 +15,6 @@ export const Home = () => {
     return (
         <>
             <Header />
-            <p className="w-full p-4 mt-8 text-3xl text-center">Testimonials</p>
             <Testimonials />
             <Sidebar />
             <Outlet />
