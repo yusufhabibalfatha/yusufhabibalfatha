@@ -5,7 +5,7 @@ import Sidebar from "./components/Sidebar"
 import Testimonials from "./components/Testimonials"
 import Header from "./components/Header"
 import About from "./components/About"
-import { createBrowserRouter, createRoutesFromElements, Outlet, Route, useLocation, NavLink } from "react-router-dom"
+import { createBrowserRouter, createRoutesFromElements, Outlet, Route } from "react-router-dom"
 import { RouterProvider } from 'react-router-dom'
 
 import AppRoot from "./layouts/app-root"
