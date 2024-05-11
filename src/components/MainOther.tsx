@@ -1,16 +1,18 @@
 import { useParams } from "react-router-dom";
+import projects from "./../assets/projects.json"
 
 const MainContent = () => {
-    // const { projectID } = useParams<Record<string, string | undefined>>()
-    const { projectID } = useParams<{projectID?: string}>();
-    console.log(projectID)
+    const { projectID } = useParams<Record<string, string | undefined>>()
+    // const { projectID } = useParams<{projectID?: string}>();
+
+    const theProject = projects.filter(project => project.id.toString() === projectID)[0]
+
     return (
-        <>
-        {/* <main className="flex flex-col p-6 gap-y-4 sm:w-3.5 sm:flex-grow"> */}
-            <h2 className="text-3xl text-center">Skrt</h2>
-            <p>{projectID}</p>
-        {/* </main> */}
-        </>
+        <div className="flex flex-col min-h-screen gap-4 p-6 text-center bg-base-300">
+            <h2 className="text-3xl">{theProject.title}</h2>
+            <p>{theProject.result}</p>
+            <p>{theProject.client}</p>
+        </div>
     );
 }
  

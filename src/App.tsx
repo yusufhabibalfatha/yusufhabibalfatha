@@ -21,7 +21,7 @@ export const MainRoot = () => {
     const location = useLocation()
     let a = location.pathname.includes('project')
     return (
-    <main className="flex flex-col p-6 gap-y-4 sm:w-3.5 sm:flex-grow">
+    <main className="flex flex-col p-6 gap-y-4 sm:w-3.5 sm:flex-grow min-h-screen">
         <div className="relative flex items-center">
             <NavLink to=".." className={`absolute ${a ? 'block' : 'hidden'}`}>Back</NavLink>
             <h2 className="w-full text-3xl text-center">
