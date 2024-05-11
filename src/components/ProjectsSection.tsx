@@ -4,6 +4,10 @@ import projects from "../assets/projects.json";
 import { IoChevronForward } from "react-icons/io5";
 
 const ProjectsSection = () => {
+  const scrollToTopProjects = () => {
+    const projectsSection = document.getElementById("projectsSection");
+    projectsSection?.scrollIntoView();
+  };
   return (
     <m.div
       className="flex flex-col gap-3"
@@ -34,6 +38,7 @@ const ProjectsSection = () => {
           <NavLink
             to={`project/${project.id}`}
             className="rounded-md w-fit btn btn-primary"
+            onClick={scrollToTopProjects}
           >
             Details <IoChevronForward />
           </NavLink>

@@ -8,7 +8,10 @@ const ProjectsRoot = () => {
 
   return (
     <LazyMotion features={domAnimation}>
-      <main className="flex flex-col p-6 gap-y-4 sm:w-3.5 sm:flex-grow min-h-screen">
+      <main
+        id="projectsSection"
+        className="flex flex-col p-6 gap-y-4 sm:w-3.5 sm:flex-grow min-h-screen scroll-mt-12"
+      >
         <div className="relative flex items-center">
           <NavLink
             to=".."
