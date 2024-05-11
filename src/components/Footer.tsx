@@ -11,8 +11,8 @@ const Footer = () => {
             <nav>
                 <h6 className="footer-title">Social</h6> 
                 <div className="grid grid-flow-col gap-4">
-                    <a href="https://www.instagram.com"><AiFillInstagram size={24}/></a>
-                    <a href="https://linkedin.com"><BsLinkedin size={22}/></a>
+                    <a href="https://www.instagram.com/yusup.alfa/"><AiFillInstagram size={24}/></a>
+                    <a href="https://www.linkedin.com/in/yusuf-habib-alfatha"><BsLinkedin size={22}/></a>
                 </div>
             </nav>
         </footer>
