@@ -7,7 +7,7 @@ const ProjectsRoot = () => {
   const location = useLocation();
   const isPathHasProject = location.pathname.includes("project");
 
-  const axisTitleProject: MutableRefObject<HTMLDivElement | null> =
+  const axisTitleProject: MutableRefObject<HTMLHeadingElement | null> =
     useRef(null);
 
   return (

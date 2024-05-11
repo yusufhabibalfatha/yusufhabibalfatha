@@ -4,14 +4,17 @@ import projects from "../assets/projects.json";
 import { IoChevronForward } from "react-icons/io5";
 
 const ProjectsSection = () => {
-  const axisTitleProject = useOutletContext<HTMLDivElement>();
-
+  const axisTitleProject = useOutletContext<HTMLHeadingElement>();
   const scrollToTopProjects = () => {
-    axisTitleProject.scrollIntoView();
+    setTimeout(() => {
+      axisTitleProject.scrollIntoView(true);
+    }, 200);
+    // console.log("a ", axisTitleProject.scrollHeight);
+    // window.scrollTo(36, 36);
   };
   return (
     <m.div
-      className="flex flex-col gap-3"
+      className="flex flex-col min-h-screen gap-3"
       initial={{ opacity: 0, x: -100 }}
       animate={{ opacity: 1, x: 0 }}
       exit={{ opacity: 0, x: 100 }}
