@@ -15,7 +15,7 @@ const MainContent = () => {
                         <p className="flex justify-between w-1/5">Result<span>:</span></p>
                         <p className="w-9/12">{project.result}</p>
                     </div>
-                    <NavLink to={`project/${project.id}`} className="rounded-md w-fit btn btn-primary">Details</NavLink>
+                    {/* <NavLink to={`project/${project.id}`} className="rounded-md w-fit btn btn-primary">Details</NavLink> */}
                 </div>
             ))}
         </>

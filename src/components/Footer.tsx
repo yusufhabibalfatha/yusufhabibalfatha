@@ -9,7 +9,7 @@ const Footer = () => {
                 <p>Yusuf Habib Alfatha.<br/>Providing reliable tech since 2019</p>
             </aside> 
             <nav>
-                <h6 className="footer-title">Social</h6> 
+                <h6 className="footer-title">Social Media</h6> 
                 <div className="grid grid-flow-col gap-4">
                     <a href="https://www.instagram.com/yusup.alfa/"><AiFillInstagram size={24}/></a>
                     <a href="https://www.linkedin.com/in/yusuf-habib-alfatha"><BsLinkedin size={22}/></a>
