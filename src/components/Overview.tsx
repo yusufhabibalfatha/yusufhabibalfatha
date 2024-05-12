@@ -2,7 +2,10 @@ import photo from "./../assets/photo-profile.webp";
 
 const Sidebar = () => {
   return (
-    <aside className="p-6 text-justify scroll-mt-12 sm:max-w-xs lg:max-w-md">
+    <aside
+      className="p-6 text-justify scroll-mt-12 sm:max-w-xs lg:max-w-md"
+      id="overview"
+    >
       <h2 className="text-3xl text-center">Overview</h2>
       <img
         className="pt-6 mx-auto max-h-60 md:max-h-96"
