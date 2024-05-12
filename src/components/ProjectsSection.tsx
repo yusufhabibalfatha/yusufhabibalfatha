@@ -2,6 +2,7 @@ import { NavLink, useOutletContext } from "react-router-dom";
 import { m } from "framer-motion";
 import projects from "../assets/projects.json";
 import { IoChevronForward } from "react-icons/io5";
+import { AiOutlineExclamationCircle } from "react-icons/ai";
 
 const ProjectsSection = () => {
   const axisTitleProject = useOutletContext<HTMLHeadingElement>();
@@ -9,8 +10,6 @@ const ProjectsSection = () => {
     setTimeout(() => {
       axisTitleProject.scrollIntoView(true);
     }, 200);
-    // console.log("a ", axisTitleProject.scrollHeight);
-    // window.scrollTo(36, 36);
   };
   return (
     <m.div
@@ -40,13 +39,23 @@ const ProjectsSection = () => {
             </p>
             <p className="w-9/12">{project.result}</p>
           </div>
-          <NavLink
-            to={`project/${project.id}`}
-            className="rounded-md w-fit btn btn-primary"
-            onClick={scrollToTopProjects}
-          >
-            Details <IoChevronForward />
-          </NavLink>
+          <div className="mt-6">
+            <NavLink
+              to={`project/${project.id}`}
+              className="rounded-md btn btn-primary"
+              onClick={scrollToTopProjects}
+            >
+              Details <AiOutlineExclamationCircle />
+            </NavLink>
+            <a
+              href={project.link}
+              className={`ml-4 rounded-md w-fit btn btn-neutral ${
+                project.link === "none" ? "btn-disabled" : ""
+              }`}
+            >
+              Visit Website <IoChevronForward />
+            </a>
+          </div>
         </div>
       ))}
     </m.div>

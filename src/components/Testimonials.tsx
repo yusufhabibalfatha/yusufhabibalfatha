@@ -6,16 +6,16 @@ import testi_4 from "./../assets/testi 4.webp";
 const Testimonials = () => {
   return (
     <div className="my-11">
-      <div className="text-center p-4 md:w-1/2 mx-auto md:text-left">
-        <p className="text-center text-xl">Hear what my clients say</p>
+      <div className="w-11/12 p-4 mx-auto text-center md:w-1/2">
+        <p className="text-xl text-center">Hear what my clients say</p>
         <p>
-          I am always determined to identify client problems and promptly solve
-          them using the appropriate technology.{" "}
+          I always identify client problems and solve them immediately using the
+          right technology.{" "}
           <a
             className="link link-info"
             href="https://www.fiverr.com/yusufhabib164"
           >
-            See the original.
+            View on Fiverr.
           </a>
         </p>
       </div>
