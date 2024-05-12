@@ -2,6 +2,7 @@ import projects from "../assets/projects.json";
 import { IoChevronForward } from "react-icons/io5";
 import { AiOutlineExclamationCircle } from "react-icons/ai";
 import { useRef, MutableRefObject } from "react";
+import ModalProject from "./ModalProject";
 
 const ProjectsSection = () => {
   const asd: MutableRefObject<HTMLDialogElement | null> = useRef(null);
@@ -50,24 +51,7 @@ const ProjectsSection = () => {
           </div>
         </div>
       ))}
-      {/* Open the modal using document.getElementById('ID').showModal() method */}
-      <dialog id="my_modal_1" className="modal modal-bottom" ref={asd}>
-        <div className="h-screen modal-box">
-          <h3 className="text-lg font-bold">Hello!</h3>
-          <p className="py-4">
-            Press ESC key or click the button below to close
-          </p>
-          <div className="modal-action">
-            <form method="dialog">
-              {/* if there is a button in form, it will close the modal */}
-              <button className="btn">Close</button>
-            </form>
-          </div>
-        </div>
-        <form method="dialog" className="modal-backdrop">
-          <button>close</button>
-        </form>
-      </dialog>
+      <ModalProject test={asd} />
     </div>
   );
 };
