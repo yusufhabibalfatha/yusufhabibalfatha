@@ -5,7 +5,7 @@ import testi_4 from "./../assets/testi 4.webp";
 
 const Testimonials = () => {
   return (
-    <div className="my-11">
+    <div className="my-11 md:px-8">
       <div className="w-11/12 p-4 mx-auto text-center md:w-1/2">
         <p className="text-xl text-center">Hear what my clients say</p>
         <p>

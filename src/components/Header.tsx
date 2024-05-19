@@ -1,24 +1,31 @@
-import Photo_profile from "../assets/photo-profile-hero.jpeg";
+import projectHeaderImg from "./../assets/header-project.jpg";
+import testiHeaderImg from "./../assets/testi 2 copy.jpg";
 
 const Header = () => {
   return (
-    <header className="min-h-screen p-6 hero bg-base-200">
-      <div className="flex-col hero-content lg:flex-row-reverse lg:gap-24">
+    <header className="flex flex-col gap-8 text-center pt-14">
+      <div className="flex flex-col items-center gap-4">
+        <h2 className="font-bold text-7xl max-sm:text-5xl">
+          Transforming ideas into websites
+        </h2>
+        <p>
+          A Specialist in Website Development. <br></br>Quick and precise.
+        </p>
+        <a href="#overview" className="btn btn-primary w-max">
+          My Overview
+        </a>
+      </div>
+      <div className="relative p-4">
         <img
-          src={Photo_profile}
-          className="rounded-lg shadow-2xl"
-          alt="photo-profile"
+          src={testiHeaderImg}
+          alt=""
+          className="absolute w-1/3 shadow-2xl md:w-1/5 rounded-xl top-28 left-1 md:left-16"
         />
-        <div className="flex flex-col gap-4">
-          <h2 className="text-5xl font-bold">Hi, I'm Yusuf Habib</h2>
-          <p>
-            A Specialist in Website Development. <br></br>Quick and precise.
-          </p>
-          <p></p>
-          <a href="#overview" className="btn btn-primary w-max">
-            Let's jump!
-          </a>
-        </div>
+        <img
+          src={projectHeaderImg}
+          alt=""
+          className="mx-auto border-2 border-black rounded-xl md:w-3/4"
+        />
       </div>
     </header>
   );

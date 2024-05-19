@@ -7,7 +7,7 @@ import ModalProject from "./ModalProject";
 const ProjectsSection = () => {
   const asd: MutableRefObject<HTMLDialogElement | null> = useRef(null);
   return (
-    <div className="flex flex-col min-h-screen gap-3">
+    <div className="flex flex-col min-h-screen gap-3 lg:px-8">
       {projects.map((project) => (
         <div
           className="flex flex-col gap-4 p-6 whitespace-pre-wrap bg-base-300 rounded-xl"
