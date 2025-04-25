@@ -5,13 +5,11 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=yusufhabibalfatha" alt="yusufhabibalfatha" /></a> </p>
 
-- 🔭 I’m currently working on [the School website uses wordpress](almukminuntarakan.com)
+- 🔭 Currently I am working as a teacher and as a freelance developer and also helping to build several information systems in the LDII organization in Tarakan City, such as the Tarakan PPG Database, CAI event barcode attendance system, and others.
 
 - 🌱 I’m currently learning **Wordpress**
 
-- 🤝 I’m looking for help with [Wordpress theme for free](yusufhabibalfatha.wordpress.com)
-
-- 👨‍💻 All of my projects are available at [yusufhabibalfatha.wordpress.com](yusufhabibalfatha.wordpress.com)
+- 👨‍💻 The project activities that I am working on are available at [yusufhabib.com](yusufhabib.com)
 
 - 📫 How to reach me **y.habib.alfatha@gmail.com**
 
