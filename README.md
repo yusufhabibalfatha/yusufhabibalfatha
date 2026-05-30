@@ -53,10 +53,6 @@ Linux • Git • Figma
 ### 📈 GitHub Activity
 
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=yusufhabibalfatha&show_icons=true" />
-</p>
-
-<p align="center">
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=yusufhabibalfatha" />
 </p>
 
